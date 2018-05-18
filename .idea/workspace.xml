@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf26f5b-6f60-4988-b0fe-ac3b66f768ea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/server.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/schematics/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/schematics/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/application/index.js" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/application/index.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/application/other-files/app.component.spec.ts" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/application/other-files/app.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/e2e/files/src/app.e2e-spec.ts" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/e2e/files/src/app.e2e-spec.ts" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/e2e/schema.d.ts" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/e2e/schema.d.ts" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/e2e/schema.json" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/e2e/schema.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/library/files/__projectRoot__/ng-package.json" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/library/files/__projectRoot__/ng-package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/library/files/__projectRoot__/ng-package.prod.json" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/library/files/__projectRoot__/ng-package.prod.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/library/index.js" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/library/index.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/ng-new/schema.json" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/ng-new/schema.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/package.json" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/universal/files/src/__tsconfigFileName__.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/universal/index.js" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/universal/index.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/angular/utility/latest-versions.js" afterPath="$PROJECT_DIR$/node_modules/@schematics/angular/utility/latest-versions.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/update/package.json" afterPath="$PROJECT_DIR$/node_modules/@schematics/update/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/update/update/index.js" afterPath="$PROJECT_DIR$/node_modules/@schematics/update/update/index.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@schematics/update/update/npm.js" afterPath="$PROJECT_DIR$/node_modules/@schematics/update/update/npm.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,8 +55,18 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="102">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding>
                 <element signature="e#250#313#0" expanded="true" />
               </folding>
@@ -109,8 +99,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/app/_services/authentication.service.ts" />
         <option value="$PROJECT_DIR$/src/app/_helpers/jwt.interceptor.ts" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -152,6 +142,17 @@
             <path>
               <item name="wellness-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="wellness-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wellness-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wellness-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wellness-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wellness-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,12 +278,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526641737610</updated>
-      <workItem from="1526641739037" duration="969000" />
+      <workItem from="1526641739037" duration="1740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="969000" />
+    <option name="totallyTimeSpent" value="1740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="0" width="2560" height="1440" extended-state="0" />
@@ -364,10 +365,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="102">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -375,7 +384,7 @@
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="e#250#313#0" expanded="true" />
           </folding>
