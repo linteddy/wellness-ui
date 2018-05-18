@@ -1,0 +1,4 @@
+<div id="container"  class="container-fluid">
+  <button (click)="goToCapture();">Capture Result</button>
+  <button *ngIf="canViewHighRiskPatients()" (click)="goToViewHighRiskPatients();">View High Risk Patients</button>
+</div>

@@ -1,0 +1,24 @@
+<table class="table table-striped" style="margin-top: 5%">
+  <thead style="background-color: #42A948">
+  <tr>
+    <th scope="col">Patient Name</th>
+    <th scope="col">Patient Surname</th>
+    <th scope="col">BMI</th>
+    <th scope="col">Systolic blood pressure</th>
+    <th scope="col">Diastolic blood pressure</th>
+    <th scope="col">Captured by</th>
+    <th scope="col">Captured on</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let patient of patients">
+    <td>{{patient.name}}</td>
+    <td>{{patient.surname}}</td>
+    <td>{{patient.bodyMassIndex}}</td>
+    <td>{{patient.systolicBloodPressure}}</td>
+    <td>{{patient.diastolicBloodPressure}}</td>
+    <td>{{patient.createdBy}}</td>
+    <td>{{patient.createdDate}}</td>
+  </tr>
+  </tbody>
+</table>

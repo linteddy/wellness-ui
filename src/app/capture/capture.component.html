@@ -1,0 +1,77 @@
+<div class="offset-md-2">
+  <form #f="ngForm" (ngSubmit)="save()" style="margin-top: 10%;">
+    <div class="form-group row">
+      <label for="name" class="col-sm-2 col-form-label">Patient Name</label>
+      <div class="col-sm-10 col-md-6">
+        <input type="text" class="form-control" id="name" name="name" [(ngModel)]="patient.name" #name="ngModel"
+               required>
+        <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+          patient name is mandatory
+        </div>
+      </div>
+    </div>
+    <div class=" form-group row">
+      <label for="surname" class="col-sm-2 col-form-label">Patient Surname</label>
+      <div class="col-sm-10 col-md-6">
+        <input type="text" class="form-control" id="surname" name="surname" required [(ngModel)]="patient.surname" #surname="ngModel">
+        <div [hidden]="surname.valid || surname.pristine" class="alert alert-danger">
+          patient surname is mandatory
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="email" class="col-sm-2 col-form-label">Patient Email</label>
+      <div class="col-sm-10 col-md-6">
+        <input type="email" class="form-control" id="email" name="email" [(ngModel)]="patient.email"
+               #email2="ngModel" email pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
+        <div [hidden]="email2.valid || email2.pristine" class="alert alert-danger">
+          patient email is mandatory and should be valid email address
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="height" class="col-sm-2 col-form-label">Height (meters)</label>
+      <div class="col-sm-10 col-md-6">
+        <input type="number" class="form-control" id="height" name="height" required [(ngModel)]="patient.height" #height="ngModel">
+        <div [hidden]="height.valid || height.pristine" class="alert alert-danger">
+          height is mandatory
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="weight" class="col-sm-2 col-form-label">Weight (kg)</label>
+      <div class="col-sm-10 col-md-6">
+        <input type="number" class="form-control" id="weight" name="weight" required [(ngModel)]="patient.weight" #weight="ngModel">
+        <div [hidden]="weight.valid || weight.pristine" class="alert alert-danger">
+          weight is mandatory
+        </div>
+      </div>
+    </div>
+    <div class=" form-group row">
+      <label for="systolicBloodPressure" class="col-sm-2 col-form-label">Systolic blood pressure</label>
+      <div class="col-sm-10 col-md-6 ">
+        <input type="number" class="form-control" id="systolicBloodPressure" name="systolicBloodPressure" required
+               [(ngModel)]="patient.systolicBloodPressure" #systolicBloodPressure="ngModel">
+        <div [hidden]="systolicBloodPressure.valid || systolicBloodPressure.pristine" class="alert alert-danger">
+          systolic blood pressure is mandatory
+        </div>
+      </div>
+    </div>
+    <div class=" form-group row">
+      <label for="diastolicBloodPressure" class="col-sm-2 col-form-label">Diastolic blood pressure</label>
+      <div class="col-sm-10 col-md-6">
+        <input type="number" class="form-control" id="diastolicBloodPressure" name="diastolicBloodPressure" required
+               [(ngModel)]="patient.diastolicBloodPressure" #diastolicBloodPressure="ngModel">
+        <div [hidden]="diastolicBloodPressure.valid || diastolicBloodPressure.pristine" class="alert alert-danger">
+          diastolic blood pressure is mandatory
+        </div>
+      </div>
+    </div>
+    <div class=" form-group row">
+      <div class="col-sm-12 col-md-10">
+        <button type="submit" class="btn btn-success float-right" [disabled]="!f.form.valid">Save</button>
+      </div>
+    </div>
+  </form>
+</div>
+
