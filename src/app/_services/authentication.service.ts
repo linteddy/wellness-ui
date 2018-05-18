@@ -9,7 +9,7 @@ export class AuthenticationService {
 
   login(username: string, password: string) {
     return this.http
-      .post<Token>('http://localhost:8090/login', {username: username, password: password}, {
+      .post<Token>('https://unndevs-wellness-server.herokuapp.com/login', {username: username, password: password}, {
         headers: new HttpHeaders({'Content-Type': 'application/json'})
       });
 

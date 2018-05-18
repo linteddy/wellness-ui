@@ -13,7 +13,7 @@ export class JwtInterceptor implements HttpInterceptor {
           Authorization: token
         }
       });
-      request = request.clone({url: 'http://localhost:8090' + request.url});
+      request = request.clone({url: 'https://unndevs-wellness-server.herokuapp.com' + request.url});
       console.log(request.url);
     }
 
